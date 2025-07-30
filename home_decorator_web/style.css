@@ -19,3 +19,15 @@ header a:hover {
   color: rgb(190, 166, 190);  
   text-decoration: none;  
 }
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-overlay-img{
+    max-width: 50px;
+}
