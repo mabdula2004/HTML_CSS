@@ -1,0 +1,21 @@
+
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+header a {
+  text-decoration: none;
+  display: inline;
+  font-family: 'Open Sans', sans-serif;
+  color:  black;
+  padding: 15px;
+}
+
+header a:hover {
+  color: rgb(190, 166, 190);  
+  text-decoration: none;  
+}
