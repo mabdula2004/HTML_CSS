@@ -308,6 +308,7 @@ header a:hover {
   padding-left: 450px;
   padding-right: 450px;
   font-weight: normal;
+  margin-bottom: 50px;
   color: rgb(51, 50, 50);
 }
 .delivery{
@@ -345,7 +346,7 @@ header a:hover {
 .house-into-home .subtitle {
   font-size: 18px;
   color: #444;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 .house-container{
   display: flex;
