@@ -138,94 +138,95 @@ header a:hover {
     height: 350px;
 }
 
-/* General Styling */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  color: #333;
-}
-
 /* FAQ Section */
-.faq-section {
-  padding: 40px 20px;
-  background-color: #fff;
-}
+    .faq-section {
+      padding: 60px 20px 40px;
+    }
 
-.faq-question {
-  background: none;
-  border: none;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 10px;
-  cursor: pointer;
-  width: 100%;
-  text-align: left;
-  position: relative;
-}
+    .faq-section h2 {
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
 
-.faq-question::after {
-  content: '▼';
-  position: absolute;
-  right: 10px;
-  transition: transform 0.3s;
-}
+    .faq-container {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: left;
+    }
 
-.faq-question.active::after {
-  transform: rotate(180deg);
-}
+    details {
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 10px;
+    }
 
-.faq-answer {
-  display: none;
-  background-color: #f8f3ed;
-  padding: 15px;
-  text-align: left;
-  margin-bottom: 10px;
-}
+    summary {
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      position: relative;
+      padding: 10px 0;
+      list-style: none;
+    }
 
-.faq-item {
-  max-width: 800px;
-  margin: 0 auto 20px auto;
-  border-bottom: 1px solid #ddd;
-}
+    summary::marker {
+      display: none;
+    }
 
-/* Social Section */
-.social-section {
-  padding: 40px 20px;
-}
+    summary::after {
+      content: "▼";
+      position: absolute;
+      right: 0;
+      transition: transform 0.3s;
+    }
 
-.social-section h2 {
-  font-size: 28px;
-  margin-bottom: 20px;
-}
+    details[open] summary::after {
+      transform: rotate(180deg);
+    }
 
-.social-icons {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
+    details p {
+      background-color: #f8f3ed;
+      padding: 15px;
+      margin-top: 10px;
+      border-radius: 4px;
+    }
 
-.social-icons i {
-  margin: 0 10px;
-  color: #6e6e6e;
-  transition: color 0.3s;
-  cursor: pointer;
-}
+    /* Social Section */
+    .social-section {
+      padding: 60px 20px;
+    }
 
-.social-icons i:hover {
-  color: #000;
-}
+    .social-section h2 {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
 
-.social-images {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
-}
+    .social-icons {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
 
-.social-images img {
-  width: 180px;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 8px;
-}
+    .social-icons i {
+      margin: 0 10px;
+      color: #6e6e6e;
+      transition: color 0.3s;
+      cursor: pointer;
+    }
+
+    .social-icons i:hover {
+      color: #000;
+    }
+
+    .social-images {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .social-images img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
