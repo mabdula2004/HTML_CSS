@@ -197,8 +197,9 @@ header a:hover {
 }
 
 .social-section h2 {
-  font-size: 28px;
+  font-size: 48px;
   margin-bottom: 20px;
+  font-weight: lighter;
 }
 
 .social-content {
@@ -220,9 +221,13 @@ header a:hover {
 }
 
 .social-content img {
-  width: 180px;
-  height: 180px;
+  width: 220px;
+  height: 230px;
   object-fit: cover;
-  margin: 10px;
-  
+  margin: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-content img:hover {
+  transform: scale(1.08);
 }
