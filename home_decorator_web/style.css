@@ -331,7 +331,6 @@ header a:hover {
 .delivery-imgs p{
   font-size: 18px;
 }
-
 .house-into-home {
  
   text-align: center;
@@ -339,12 +338,10 @@ header a:hover {
   font-family: 'Raleway', sans-serif;
   background-color: #fff;
 }
-
 .house-into-home h2 {
   font-size: 32px;
   margin-bottom: 10px;
 }
-
 .house-into-home .subtitle {
   font-size: 18px;
   color: #444;
@@ -356,8 +353,6 @@ header a:hover {
   margin-right: 100px;
   height: 640px;
 }
-
-/* Light Purple Text Card */
 .text-card {
   background-color: #b192c4; 
   padding: 25px;
@@ -373,15 +368,12 @@ header a:hover {
   font-size: 1.25rem;
   margin: 0;
 }
-
 .text-card span {
   display: block;
   margin-top: 10px;
   font-size: 16px;
   color: #ffffff;
 }
-
-
 .text-under-img {
   text-align: start;
   max-width: 500px;
@@ -390,7 +382,6 @@ header a:hover {
   font-size: 1.25rem;
   color: #333;
 }
-
 .circle-img {
   width: 200px;
   height: 200px;
@@ -399,12 +390,9 @@ header a:hover {
   margin-bottom: 20px;
   transition: transform 0.3s ease;
 }
-
 .circle-img:hover {
   transform: scale(1.05); 
 }
-
-
 .about-pg-why-choose-us {
   display: flex;
   flex-wrap: wrap;
@@ -414,13 +402,11 @@ header a:hover {
   gap: 40px;
   background-color: #fff;
 }
-
 .about-pg-heading-section {
   flex: 1 1 100%;
   text-align: center;
   margin-bottom: 40px;
 }
-
 .about-pg-heading-section h1 {
   font-size: 40px;
   margin-bottom: 10px;
@@ -428,19 +414,16 @@ header a:hover {
   font-weight: normal;
   line-height: 1.2;
 }
-
 .about-pg-heading-section p {
   font-size: 20px;
   color: #888;
   margin-bottom: 15px;
 }
-
 .about-pg-heading-section small {
   font-size: 16px;
   color: #888;
   
 }
-
 .about-pg-quote-section {
   flex: 1 1 45%;
   display: flex;
@@ -455,14 +438,12 @@ header a:hover {
   height: 64px;
   margin-bottom: 10px;
 }
-
 .about-pg-quote-section p {
   font-size: 20px;
   line-height: 1.4;
   margin: 0;
   color: #3d3636;
 }
-
 .about-pg-quote-section strong {
   display: block;
   font-size: 16px;
@@ -470,22 +451,18 @@ header a:hover {
   margin-top: 8px;
   color: #3d3636;
 }
-
 .about-pg-image-section {
   flex: 1 1 45%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .about-pg-image-section img {
   width: 550px;
   height: 700px;
   object-fit: cover;
 
 }
-
-
 .have-any-problem{
   display: flex;
   flex-direction: column;
@@ -494,7 +471,6 @@ header a:hover {
   background-color: #bfb29c;
 
 }
-
 .para-container{
   display: flex;
   padding-left: 200px;
@@ -520,4 +496,17 @@ header a:hover {
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 50px;
+}
+
+
+
+/*conatct page*/
+.contact-page-hero-sec{
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
 }
