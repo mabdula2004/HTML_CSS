@@ -340,12 +340,12 @@ header a:hover {
 }
 .house-into-home h2 {
   font-size: 32px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .house-into-home .subtitle {
   font-size: 18px;
   color: #444;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .house-container{
   display: flex;
@@ -509,4 +509,78 @@ header a:hover {
     background-size: cover;
     background-position: center;
     height: 350px;
+}
+.contact-form {
+    width: 60%;
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 0 20px;
+}
+.contact-form h1 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 50px;
+    color: #2f2b2b;
+    font-weight: normal;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: #292626;
+}
+input,textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    color: #333;
+    outline: none;
+}
+button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 20px 40px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+button:hover {
+    background-color: #333;
+}
+.contact-section {
+  background-color: #b8ab97;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+.address {
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+.phone {
+  font-size: 36px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-weight: bold;
+}
+.phone i {
+  font-size: 50px;
+}
+.number {
+  font-size: 50px;
+}
+.description {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #fff;
+  line-height: 1.6;
 }
