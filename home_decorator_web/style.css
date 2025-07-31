@@ -310,3 +310,9 @@ header a:hover {
   font-weight: normal;
   color: rgb(51, 50, 50);
 }
+
+.delivery{
+  display: flex;
+  color: #ffffff;
+  background-color: #bfb29c;
+}
