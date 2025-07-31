@@ -317,12 +317,10 @@ header a:hover {
   color: #ffffff;
   background-color: #bfb29c;
 }
-
 .delivery-imgs{
   margin-top:60px ;
   margin-bottom: 70px;
 }
-
 .delivery-imgs img{
   max-height: 64px;
   max-width: 64px;
@@ -333,3 +331,158 @@ header a:hover {
 .delivery-imgs p{
   font-size: 18px;
 }
+
+.house-into-home {
+ 
+  text-align: center;
+  padding: 60px 20px;
+  font-family: 'Raleway', sans-serif;
+  background-color: #fff;
+}
+
+.house-into-home h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.house-into-home .subtitle {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 30px;
+}
+.house-container{
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 640px;
+}
+
+/* Light Purple Text Card */
+.text-card {
+  background-color: #b192c4; 
+  padding: 25px;
+  text-align: start;
+  max-width: 500px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+.text-card p{
+  color: #ffffff;
+   line-height: 2;
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.text-card span {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+
+.text-under-img {
+  text-align: start;
+  max-width: 500px;
+  margin: 0 auto;
+  line-height: 2;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.circle-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.circle-img:hover {
+  transform: scale(1.05); 
+}
+
+
+.about-pg-why-choose-us {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 60px 12%;
+  gap: 40px;
+  background-color: #fff;
+}
+
+.about-pg-heading-section {
+  flex: 1 1 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-pg-heading-section h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #3d3636;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+.about-pg-heading-section p {
+  font-size: 20px;
+  color: #888;
+  margin-bottom: 15px;
+}
+
+.about-pg-heading-section small {
+  font-size: 16px;
+  color: #888;
+  
+}
+
+.about-pg-quote-section {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about-pg-quote-section strong{
+  font-size: 20px;
+}
+.about-pg-quote-section img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 10px;
+}
+
+.about-pg-quote-section p {
+  font-size: 20px;
+  line-height: 1.4;
+  margin: 0;
+  color: #3d3636;
+}
+
+.about-pg-quote-section strong {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 8px;
+  color: #3d3636;
+}
+
+.about-pg-image-section {
+  flex: 1 1 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-pg-image-section img {
+  width: 550px;
+  height: 700px;
+  object-fit: cover;
+
+}
+color: #ffffff;
+    background-color: #bfb29c;
