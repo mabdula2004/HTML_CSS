@@ -275,3 +275,18 @@ header a:hover {
   color: #cfcfcf;
   text-decoration: underline;
 }
+
+
+
+
+/*About-page8*/
+
+.about-page-hero-sec{
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
