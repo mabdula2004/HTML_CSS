@@ -202,8 +202,9 @@ header a:hover {
 }
 
 .social-content {
-  
+  padding: 20px;
   align-items: center;
+  font-weight: normal;
 }
 
 .social-content i {
@@ -215,7 +216,7 @@ header a:hover {
 }
 
 .social-content i:hover {
-  color: #000;
+  color: #9074ab ;
 }
 
 .social-content img {
