@@ -484,5 +484,40 @@ header a:hover {
   object-fit: cover;
 
 }
-color: #ffffff;
-    background-color: #bfb29c;
+
+
+.have-any-problem{
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+  color: #ffffff;
+  background-color: #bfb29c;
+
+}
+
+.para-container{
+  display: flex;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.problem-heading{
+  text-align: center;
+}
+.problem-heading h6{
+  font-size: 16px;
+}
+.problem-heading h2{
+  font-size: 48px;
+  font-weight: normal;
+}
+.paragraph{
+  text-align: start;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+.paragraph p{
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 50px;
+}
