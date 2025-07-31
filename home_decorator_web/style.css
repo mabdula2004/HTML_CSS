@@ -310,9 +310,26 @@ header a:hover {
   font-weight: normal;
   color: rgb(51, 50, 50);
 }
-
 .delivery{
   display: flex;
+   justify-content: space-evenly;
+
   color: #ffffff;
   background-color: #bfb29c;
+}
+
+.delivery-imgs{
+  margin-top:60px ;
+  margin-bottom: 70px;
+}
+
+.delivery-imgs img{
+  max-height: 64px;
+  max-width: 64px;
+}
+.delivery-imgs h5{
+  font-size: 20px;
+}
+.delivery-imgs p{
+  font-size: 18px;
 }
