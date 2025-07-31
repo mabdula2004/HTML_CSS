@@ -290,3 +290,23 @@ header a:hover {
     background-position: center;
     height: 350px;
 }
+.about-us{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
+}
+.about-us h1{
+  font-size: 48px;
+  font-family: 'raleway',sans-serif;
+  font-weight: normal;
+  color: #3d3636;
+}
+.about-us p{
+  font-size: 19px;
+  padding-left: 450px;
+  padding-right: 450px;
+  font-weight: normal;
+  color: rgb(51, 50, 50);
+}
