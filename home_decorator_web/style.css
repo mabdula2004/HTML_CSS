@@ -25,8 +25,6 @@ header a:hover {
   text-decoration: none;  
 }
 
-
-/* SECTION 1: hero section */
 .banner {
   display: flex;
   flex-direction: column;
@@ -53,8 +51,6 @@ header a:hover {
     font-weight: normal;
 }
 
-
-/* SECTION 2: image + text side by side */
 .luxary-interior {
   display: flex;
   justify-content: center;
@@ -89,7 +85,6 @@ header a:hover {
   
 }
 
-/* SECTION 3: Why Choose Us Section */
 .why-choose-us {
   background-color: #ac96bd;
   color: white;
@@ -138,14 +133,15 @@ header a:hover {
     height: 350px;
 }
 
-/* FAQ Section */
     .faq-section {
+    text-align: center;
       padding: 60px 20px 40px;
     }
 
     .faq-section h2 {
-      font-size: 30px;
+      font-size: 48px;
       margin-bottom: 30px;
+      font-weight: normal;
     }
 
     .faq-container {
@@ -199,7 +195,8 @@ header a:hover {
 .social-section h2 {
   font-size: 48px;
   margin-bottom: 20px;
-  font-weight: lighter;
+  font-weight: normal;
+  font-family: 'raleway' ,sans-serif;
 }
 
 .social-content {
@@ -230,4 +227,50 @@ header a:hover {
 
 .social-content img:hover {
   transform: scale(1.08);
+}
+
+.quote-section {
+  background-color: #cbbba0; /* Light brown background */
+  text-align: center;
+  padding: 60px 20px;
+  color: white;
+}
+
+.quote-text {
+  font-size: 28px;
+  line-height: 1.6;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.quote-author {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.signature {
+  width: 150px;
+  height: auto;
+}
+
+.middle-section {
+  background-color: #bfa6d0; /* Light purple/lavender */
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 16px;
+}
+
+
+.footer-section {
+  background-color: #1e1e1e;
+  color: #d1ffd1;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.footer-section a {
+  color: #cfcfcf;
+  text-decoration: underline;
 }
