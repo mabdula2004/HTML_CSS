@@ -86,29 +86,28 @@ header {
   position: absolute;
   left: 750px;
   width: 300px;
-  height: 750px;
+  height: 800px;
   background-color: white;
-  z-index: 1;
 }
 
 .image-wrapper img {
   margin-top: 60px;
   position: relative;
-  z-index: 2;
   width: 968px;
   height: 623px;
   display: block;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
-
 .white-card{
 display: flex;
+position: relative;
 flex-direction: column;
 padding: 40px;
-
+bottom: 120px;
 background-color: #fff;
+margin-right: 610px;
 height: 362px;
-width: 570px;
-
+width: 570px
 }
+.white-card
