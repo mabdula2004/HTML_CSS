@@ -103,11 +103,33 @@ header {
 display: flex;
 position: relative;
 flex-direction: column;
-padding: 40px;
+padding: 30px;
 bottom: 120px;
 background-color: #fff;
+color: #332e29;
 margin-right: 610px;
-height: 362px;
-width: 570px
+max-height: 383px;
+max-width: 570px
 }
-.white-card
+.white-card h4{
+    font-size: 24px;
+    color: #332e29;
+    font-weight: normal;
+    margin: 0px 0px 20px 0px;
+}
+.white-card h1{
+    font-size: 60px;
+    margin: 0px 0px 20px 0px;
+    font-family: 'Oswald',sans-serif; 
+}
+.white-card h2{
+    font-size: 16px;
+    font-weight: normal;
+    color: #111111;
+    margin: 0px;
+}
+.white-card a{
+   text-decoration: none;
+    color: #111111;
+    font-weight: normal;
+}
