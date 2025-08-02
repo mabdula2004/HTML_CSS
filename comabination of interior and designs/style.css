@@ -1,14 +1,16 @@
 .body{
     font-family: Roboto, Arial, "sans-serif";
-    padding: 0px;
-    margin: 0px;
-    background-color: #fff;
+   padding: 0;
+   margin: 0;
+   background-color: #fff;
 }
 
 header {
       background-color: #ddd;
+      background-size: cover;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
+      gap: 900px;
       align-items: center;
       padding: 20px;
     }
@@ -27,7 +29,6 @@ header {
       font-size: 26px;
     }
 
- 
     .side-menu {
       position: fixed;
       top: 0;
@@ -56,3 +57,44 @@ header {
     #menu-toggle:checked + .menu-icon + .side-menu {
       left: 0;
     }
+
+
+    .hero-section {
+  background-color: #e5e5e5; 
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.image-wrapper {
+  position: relative;
+  width: fit-content;
+}
+
+.white-block {
+  position: absolute;
+  left: 750px;
+  width: 300px;  
+  height: 750px; 
+  background-color: white;
+  z-index: 1;
+}
+
+.image-wrapper img {
+  margin-top: 60px;
+  position: relative;
+  z-index: 2;
+  width: 968px;  
+  height: 623px;
+  display: block;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1); 
+}
+
+.white-card-sec{
+    background-color: #e5e5e5; 
+}
+.white-card{
+
+}
