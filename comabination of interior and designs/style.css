@@ -140,12 +140,58 @@ max-width: 570px
     padding: 50px;
 }
 .project{
-    width: 550px;
+    width: 540px;
+    text-align: left;
+  align-items: flex-end;
+    padding: 20px;
+    margin-top: 45px;
+}
+.project h2{
+    font-size: 36px;
+    margin: 0px 0px 15px 0px;
+}
+
+.project p{
+    line-height: 1.6rem;
+    margin: 0;
+   font-weight: normal;
+   font-family: Open, sans-serif;
+   color: #111111;
 }
 .consultation{
-    width: 400px;
+    width: 540px;
+    text-align: right;
+    padding: 20px;
+}
+.consultation p{
+    font-size: 20px;
+    line-height: 1.6rem;
+    margin: 0 0 20px 0;
+   font-weight: normal;
+   font-family: Open, sans-serif;
+   color: #111111;
+
 }
 
-p-text{
+.consultation button{
+    background-color: #111111;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px;
+}
 
+.consultation button:hover{
+    background-color: #fff;
+    color: #111111;
+}
+.pic-album{
+    display: flex;
+    flex-direction: row;
+      background-color: #e5e5e5;
+}
+
+.img-1 img{
+   max-width: 361px;
+    max-height: 372px ;
+    
 }
