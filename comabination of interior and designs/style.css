@@ -133,3 +133,19 @@ max-width: 570px
     color: #111111;
     font-weight: normal;
 }
+
+.project-consultation{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.project{
+    width: 550px;
+}
+.consultation{
+    width: 400px;
+}
+
+p-text{
+
+}
