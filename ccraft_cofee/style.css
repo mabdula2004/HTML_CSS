@@ -132,3 +132,116 @@ p{
      width: 100%;
      height: 680px;    
 }
+
+
+
+.intro-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  transform: translateY(-130px);
+  padding: 0 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 210px;
+  height: 250px;
+  padding: 30px;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  font-size:48px;
+   font-family: "Oswald", sans-serif;
+  color: #b89b74;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.card h5 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 7px;
+  margin-bottom: 0px;
+}
+
+.card p {
+  font-style: italic;
+  color: #555;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+
+
+ 
+.icecream-category { 
+  display: flex;
+  align-items: center;
+  background-image: url('/assets/icecream-category.jpg'); 
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 740px;
+}
+
+.card-align-right {
+  display: flex;
+  justify-content: flex-end; 
+  width: 100%;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, auto); 
+  gap: 20px;
+}
+
+.icecream-category .card {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 110px;
+  height: 135px;
+  transition: 0.3s;
+  opacity: 0.9;
+}
+
+.card img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.card h5 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+.new-dishes { 
+  display: flex;
+  align-items: center;color: #ffffff;
+    background-color: #bfa98b;
+  height: 1330px;
+}
+.new-dishes .card-align-right {
+  display: flex;
+  justify-content: center; 
+  width: 100%;
+}
+
+.new-dishes .card{
+    width: 250px;
+    height: 350px;
+}
