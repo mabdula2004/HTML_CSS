@@ -23,6 +23,21 @@
 </head>
 
 
+<header>
+    <div class="logo">DESIGN</div>
+
+    <!-- Menu toggle logic -->
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+    <!-- Side menu -->
+    <div class="side-menu">
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Services</a>
+    </div>
+</header>
+
 <body>
     <section class="hero-section"
         style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(/assets/hero-img.jpg);">
@@ -139,7 +154,7 @@
     <section class="new-dishes">
         <h2>Popular Dishes</h2>
         <div class="page-width">
-            
+
             <div class="card-align-right">
                 <div class="card-container">
                     <div class="card">
@@ -208,23 +223,79 @@
     </section>
 
 
-   <section class="cafe-gallery">
-  <h2>Cake & Dessert Cafe</h2>
-  <div class="image-grid">
-    <img src="/assets/cake-and-dessert/cake-dessert1.jpg" alt="Cafe 1">
-    <img src="/assets/cake-and-dessert/cake-dessert2.jpg" alt="Cafe 2">
-    <img src="/assets/cake-and-dessert/cake-dessert3.jpg" alt="Cafe 3">
-    <img src="/assets/cake-and-dessert/cake-dessert4.jpg" alt="Cafe 4">
-    <img src="/assets/cake-and-dessert/cake-dessert5.jpg" alt="Cafe 5">
-    <img src="/assets/cake-and-dessert/cake-dessert6.jpg" alt="Cafe 6">
-  </div>
-  <p class="credit">Images from <a href="https://www.freepik.com" target="_blank">Freepik</a></p>
-  <button class="view-more">VIEW MORE</button>
-</section>
+    <section class="vagetarion-menu">
+        <div class="image-wrapper">
+            <div class="small-golden-block"></div>
+            <div class="golden-block"></div>
+            <img src="/assets/cofee-or-tea.jpg" alt="Interior Design">
+        </div>
+
+        <div class="white-card">
+            <h4>Vegetarian Menu</h4>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+            <h2>Image from <a href="#">Freepik</a></h2>
+            <button>LEARN MORE</button>
+        </div>
+    </section>
 
 
+    <section class="cafe-gallery">
+        <h2>Cake & Dessert Cafe</h2>
+        <div class="image-grid">
+            <img src="/assets/cake-and-dessert/cake-dessert1.jpg" alt="Cafe 1">
+            <img src="/assets/cake-and-dessert/cake-dessert2.jpg" alt="Cafe 2">
+            <img src="/assets/cake-and-dessert/cake-dessert3.jpg" alt="Cafe 3">
+            <img src="/assets/cake-and-dessert/cake-dessert4.jpg" alt="Cafe 4">
+            <img src="/assets/cake-and-dessert/cake-dessert5.jpg" alt="Cafe 5">
+            <img src="/assets/cake-and-dessert/cake-dessert6.jpg" alt="Cafe 6">
+        </div>
+        <p class="credit">Images from <a href="https://www.freepik.com" target="_blank">Freepik</a></p>
+        <button class="view-more">VIEW MORE</button>
+    </section>
 
 
+    <section class="floated-section"></section>
+    <section class="cofee-or-tea">
+        <div class="image-wrapper">
+            <div class="golden-block"></div>
+            <img src="/assets/cofee-or-tea.jpg" alt="Interior Design">
+        </div>
+
+        <div class="white-card">
+            <h4>cafe in Manhattan</h4>
+            <h1>Coffee or tea specialty to choose</h1>
+            <h2>Image from <a href="#">Freepik</a></h2>
+        </div>
+    </section>
+
+    <section class="review-msg">
+        <div class="img-form-wraper">
+            <div class="image-section">
+                <img src="/assets/cake-and-dessert/signup-form.jpg" alt="Smiling Man with Coffee" />
+            </div>
+            <div class="form-section">
+                <h2>Contact Us</h2>
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter your Name" required />
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter a valid email address" required />
+
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Write your message here..." rows="4"></textarea>
+
+                    <div class="checkbox">
+                        <input type="checkbox" id="terms" required />
+                        <label for="terms">I accept the <a href="#">Terms of Service</a></label>
+                    </div>
+
+                    <button type="submit">Submit</button>
+                </form>
+                <p class="credits">Image from <a href="#" target="_blank">Freepik</a></p>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
