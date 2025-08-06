@@ -481,7 +481,7 @@ position: relative;
 flex-direction: column;
 border-radius: 20px;
 padding: 30px;
-bottom: 350px;
+bottom: 170px;
 background-color: #fff;
 color: #332e29;
 left: 200px;
@@ -522,8 +522,8 @@ background-color: #333333;
 .vagetarion-menu .image-wrapper {
   position: relative;
   width: fit-content;
-  margin-top: 250px;
-  margin-bottom: 150px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .vagetarion-menu p{
@@ -531,7 +531,9 @@ background-color: #333333;
     line-height: 1.6;
 }
 .vagetarion-menu button{
-    
+    font-size: 16px;
+    margin-top: 20px;
+    width: fit-content;
 }
 
 
