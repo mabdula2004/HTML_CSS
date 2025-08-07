@@ -354,6 +354,106 @@ header {
 
 
 
+.vagetarion-menu {
+background-color: #333333;
+  padding: 60px;
+  max-height: 1134px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.image-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: 250px;
+  margin-bottom: 150px;
+}
+
+.vagetarion-menu .small-golden-block {
+  position: absolute;
+  top: 372px;
+  right: 600px;
+  width: 430px;
+  height: 430px;
+ background-color: #bfa98b;
+ border-radius: 20px;
+}
+
+.vagetarion-menu .golden-block {
+  position: absolute;
+  left: 600px;
+  width: 440px;
+  height: 637px;
+ background-color: #bfa98b;
+ border-radius: 20px;
+}
+
+.image-wrapper img {
+  margin-top: 60px;
+  position: relative;
+  border-radius: 20px;
+  width: 968px;
+  height: 675px;
+  display: block;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.vagetarion-menu .white-card{
+display: flex;
+position: relative;
+flex-direction: column;
+border-radius: 20px;
+padding: 30px;
+bottom: 300px;
+background-color: #fff;
+color: #332e29;
+left: 200px;
+max-height: 473px;
+max-width: 364px
+}
+.white-card h4{
+    font-size: 24px;
+    color: #332e29;
+    font-weight: normal;
+    margin: 0px 0px 20px 0px;
+}
+.white-card h3{
+    font-size: 36px;
+    color: #332e29;
+    font-weight: normal;
+    margin: 0px 0px 20px 0px;
+}
+.white-card h1{
+    font-size: 72px;
+    margin: 0px 0px 20px 0px;
+    font-family: 'Raleway',sans-serif; 
+}
+.white-card h2{
+    font-size: 21px;
+    font-weight: normal;
+    color: #111111;
+    margin: 0px;
+}
+.white-card a{
+    color: #111111;
+    font-weight: normal;
+}
+
+
+
+.vagetarion-menu p{
+    font-size: 24px;
+    line-height: 1.6;
+}
+.vagetarion-menu button{
+    font-size: 16px;
+    margin-top: 20px;
+    width: fit-content;
+}
+
 
 
 
@@ -428,10 +528,14 @@ header {
 
 
 
+
+
+
+
 .cofee-or-tea {
-background-color: #333333;
+  background-color: #333333;
   padding: 60px;
-  max-height: 1134px;
+  max-height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -442,35 +546,23 @@ background-color: #333333;
 .image-wrapper {
   position: relative;
   width: fit-content;
-  margin-top: 250px;
-  margin-bottom: 150px;
 }
 
-.small-golden-block {
-  position: absolute;
-  top: 372px;
-  right: 600px;
-  width: 430px;
-  height: 430px;
- background-color: #bfa98b;
- border-radius: 20px;
-}
-
-.golden-block {
-  position: absolute;
-  left: 600px;
-  width: 440px;
-  height: 637px;
- background-color: #bfa98b;
- border-radius: 20px;
+.white-block {
+  position: relative;
+  left: 750px;
+  border-radius: 20px;
+  width: 300px;
+  height: 800px;
+  background-color: #bfa98b;
 }
 
 .image-wrapper img {
   margin-top: 60px;
   position: relative;
-  border-radius: 20px;
+  bottom: 0px;
   width: 968px;
-  height: 675px;
+  height: 623px;
   display: block;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
@@ -479,17 +571,17 @@ background-color: #333333;
 display: flex;
 position: relative;
 flex-direction: column;
-border-radius: 20px;
 padding: 30px;
-bottom: 170px;
+bottom: 850px;
+border-radius: 20px;
 background-color: #fff;
 color: #332e29;
-left: 200px;
-max-height: 473px;
-max-width: 364px
+margin-right: 520px;
+max-height: 450px;
+max-width: 550px
 }
 .white-card h4{
-    font-size: 36px;
+    font-size: 24px;
     color: #332e29;
     font-weight: normal;
     margin: 0px 0px 20px 0px;
@@ -500,7 +592,7 @@ max-width: 364px
     font-family: 'Raleway',sans-serif; 
 }
 .white-card h2{
-    font-size: 21px;
+    font-size: 16px;
     font-weight: normal;
     color: #111111;
     margin: 0px;
@@ -509,36 +601,6 @@ max-width: 364px
     color: #111111;
     font-weight: normal;
 }
-
-.vagetarion-menu {
-background-color: #333333;
-  padding: 60px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
-}
-.vagetarion-menu .image-wrapper {
-  position: relative;
-  width: fit-content;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.vagetarion-menu p{
-    font-size: 24px;
-    line-height: 1.6;
-}
-.vagetarion-menu button{
-    font-size: 16px;
-    margin-top: 20px;
-    width: fit-content;
-}
-
-
-
-
 
 
 .review-msg {
@@ -637,5 +699,94 @@ button:hover {
 
 .credits a {
   color: #007BFF;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.container {
+  position: relative;
+
+}
+
+
+.beige-block {
+  position: absolute;
+  right: -60px;
+  top: -50px;
+  width: 300px;
+  height: 900px;
+  background-color: #c2ac8c;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.main-image img {
+  position: relative;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+
+.text-box {
+  position: absolute;
+  bottom: -300px;
+  left: -100px;
+  width: 650px;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 20px;
+  box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.15);
+  z-index: 3;
+}
+
+.text-box h5 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.text-box h3 {
+  font-size: 72px;
+  font-family: Raleway,sans-serif;
+  margin-bottom: 15px;
+  color: #111;
+
+}
+
+.text-box .credit {
+  font-size: 18px;
+   color: #111
+  
+}
+
+.text-box a {
+  color: #111;
   text-decoration: underline;
 }
