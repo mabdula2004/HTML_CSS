@@ -2,13 +2,17 @@ body{
     margin: 0;
     padding: 0;
     background-color:  #f9f6ee;
-    overflow: hidden;
+    
 }
 
 .page-width{
     max-width: 1140px;
     width: 100%;
     margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+     font-family: "Montserrat", sans-serif;
 }
 
 
@@ -20,7 +24,7 @@ header{
 header a{
    font-size: 1.0rem;
    color: #111111;
-   font-family: "Raleway", sans-serif;
+   font-family: "Monserrat", sans-serif;
    text-decoration: none; 
 }
 header a:hover{
@@ -28,5 +32,309 @@ header a:hover{
 }
 header a.active{
     color: #f1ae0e !important;
+}
+
+
+
+
+
+.hero-section{
+      justify-content: center;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.circle{
+    color: #111111;
+    background-color: #99e54d;
+    margin: 0 855px 0 0;
+    width: 20%;
+    height: auto ;
+    border-radius: 100%;
+    text-align: center;
+}
+.circle-text{
+     padding: 40px 30px;
+}
+.circle-text h2{ 
+    font-size: 4rem;
+    margin: 0 23px 0;
+}
+.circle-text h6{
+    font-size: 1.2rem;
+    margin: 20px 40px 0 ;
+
+}
+
+.hero-text{
+    color: #ffffff;
+}
+.hero-text h6{
+    font-size: 1.1rem;
+}
+.hero-text p {
+    font-size: 1.1rem;
+     font-family: "Raleway", sans-serif;
+}
+
+.hero-text h1{
+    font-size: 60px;
+    max-width: 450px;
+    /*margin:30px 670px 0 0*/
+}
+
+.hero-btn{
+    color: #ffffff;
+    background-color: #f1ae0e;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    background-image: none;
+    margin: 30px auto 0 0;
+    padding: 20px 46px 17px;
+}
+.hero-btn:hover{
+     color: #ffffff;
+    background-color: #ce9e2e ;
+}
+
+
+
+
+.view-our-menu {
+  padding: 50px 0;
+}
+
+.page-width {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.menu-text-and-grid-container {
+  text-align: center;
+}
+
+.grids {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+  justify-items: center;
+}
+
+.item1 {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.item1 img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.item1 h6 {
+  margin: 18px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.our-menu-btn {
+  color: #ffffff;
+    background-color: #f1ae0e;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.our-menu-btn:hover {
+  color: #ffffff;
+  background-color: #dbb55b;
+}
+
+
+
+.call-support{
+    display: flex;
+    justify-content: center;
+    background-color: #99e54d;
+}
+.call-support-card{
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    margin: 70px 0 70px 0;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.call-support-card h2{
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+.call-support-card p{
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.call-support-card a{
+    color: #111111;
+    font-weight: bold;
+    font-family: "Monserrat,sans serif";
+    font-size: 36px;
+    text-decoration: none;
+}
+.call-support-card a:hover{
+    color: #99e54d;
+}
+
+
+
+
+
+
+
+
+
+.culinary-adventure{
+      justify-content: center;
+}
+
+.image-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.culinary-text{
+    color: #ffffff;
+}
+.culinary-text h6{
+    font-size: 1.1rem;
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+.culinary-text p {
+    font-size: 1.1rem;
+    margin: 0  ;
+    width:420px;
+     font-family: "Raleway", sans-serif;
+}
+
+.culinary-text h1{
+    margin: 0 0 20px 0;
+    font-size: 60px;
+    max-width: 450px;
+
+    /*margin:30px 670px 0 0*/
+}
+
+.culinary-btn{
+    color: #ffffff;
+    background-color: #f1ae0e;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    background-image: none;
+    margin: 30px auto 0 0;
+    padding: 20px 46px 17px;
+}
+.culinary-btn:hover{
+     color: #ffffff;
+    background-color: #ce9e2e ;
+}
+
+
+
+
+
+.hero-section{
+      justify-content: center;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.circle{
+    color: #111111;
+    background-color: #99e54d;
+    margin: 0 855px 0 0;
+    width: 20%;
+    height: auto ;
+    border-radius: 100%;
+    text-align: center;
+}
+.circle-text{
+     padding: 40px 30px;
+}
+.circle-text h2{ 
+    font-size: 4rem;
+    margin: 0 23px 0;
+}
+.circle-text h6{
+    font-size: 1.2rem;
+    margin: 20px 40px 0 ;
+
+}
+
+.hero-text{
+    color: #ffffff;
+}
+.hero-text h6{
+    font-size: 1.1rem;
+}
+.hero-text p {
+    font-size: 1.1rem;
+     font-family: "Raleway", sans-serif;
+}
+
+.hero-text h1{
+    font-size: 60px;
+    max-width: 450px;
+    /*margin:30px 670px 0 0*/
+}
+
+.hero-btn{
+    color: #ffffff;
+    background-color: #f1ae0e;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    background-image: none;
+    margin: 30px auto 0 0;
+    padding: 20px 46px 17px;
+}
+.hero-btn:hover{
+     color: #ffffff;
+    background-color: #ce9e2e ;
 }
 
